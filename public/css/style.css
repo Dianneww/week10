@@ -3,6 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    margin: 2rem auto;
+    width: 75%;
+}
+
+.form-container{
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+form{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.result-container{
+    text-align: center;
+}
+
+.movie-data-list{
+    list-style: none;
+    line-height: 2rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+img{
+    width: 250px;
+    border-radius: 5px;
+}
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -64,7 +97,7 @@ html {
 
 .movie-poster-container img {
     margin-top: 1rem;
-    height: 500px;
+    height: 400px;
     border-radius: 1.1rem;
     transition: all 1s;
 }
